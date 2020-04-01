@@ -38,9 +38,7 @@ export default class App extends React.Component {
 			<Provider store={store}>
 				<PersistGate persistor={persistedStore}>
 					<Root>
-						<NavigationContainer>
-							<AppNavigator />
-						</NavigationContainer>
+						<AppNavigator />
 					</Root>
 				</PersistGate>
 			</Provider>

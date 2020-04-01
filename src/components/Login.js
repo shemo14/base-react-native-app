@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import {View, Text, Image, TouchableOpacity, AsyncStorage, KeyboardAvoidingView} from "react-native";
-import {Container, Content, Form, Input, Item, Toast, Button} from 'native-base'
+import {Text} from "react-native";
+import {Container, Content, Button} from 'native-base'
 
 
 class Login extends Component {
@@ -11,7 +11,7 @@ class Login extends Component {
 
             <Container>
                 <Content>
-                    <Button onPress={() => this.props.navigation.navigate('Home')}>
+                    <Button onPress={() => this.props.navigation.navigate('home')}>
                         <Text>Home</Text>
                     </Button>
                 </Content>
